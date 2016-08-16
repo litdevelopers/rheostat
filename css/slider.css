@@ -3,30 +3,30 @@
 }
 
 .rheostat-background {
-  background-color: #fcfcfc;
-  border: 1px solid #d8d8d8;
+  background-color: #ff5a5f;
+  /*border: 1px solid #d8d8d8;*/
   position: relative;
 }
 
 .rheostat-progress {
-  background-color: #abc4e8;
+  background-color: #ff5a5f;
   position: absolute;
 }
 
 .rheostat-handle {
-  background-color: #fff;
-  border: 1px solid #d8d8d8;
-  border-radius: 20%;
+  border: 1px solid #aaa;
+  background: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
   height: 24px;
+  margin-left: -12px;
   outline: none;
-  z-index: 2;
-  width: 24px;
-}
-
-.rheostat-handle:before,
-.rheostat-handle:after {
-  content: '';
-  display: block;
   position: absolute;
-  background-color: #dadfe8;
+  z-index: 2;
+  width: 24px
 }
