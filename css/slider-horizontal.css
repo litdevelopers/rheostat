@@ -3,19 +3,19 @@
 }
 
 .rheostat-horizontal .rheostat-background {
-  height: 15px;
+  height: 6px;
   top: 0px;
   width: 100%;
 }
 
 .rheostat-horizontal .rheostat-progress {
-  height: 13px;
+  height: 3px;
   top: 2px;
 }
 
 .rheostat-horizontal .rheostat-handle {
   margin-left: -12px;
-  top: -5px;
+  top: -10px;
 }
 
 .rheostat-horizontal .rheostat-handle:before,
